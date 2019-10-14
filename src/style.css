@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+  }
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.flex-grow-10 {
+    flex-grow: 10;
+ }
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-3 {
+    flex-grow: 3;
+}
+
+.flex-grow-6 {
+    flex-grow: 6;
+}

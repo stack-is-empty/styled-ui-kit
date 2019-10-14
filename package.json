@@ -1,0 +1,68 @@
+{
+  "name": "styled-ui-kit",
+  "version": "0.6.2",
+  "description": "Style Kit for components which wrote on top of styled components.",
+  "license": "MIT",
+  "main": "core/index.js",
+  "module": "core/index.js",
+  "files": [
+    "core",
+    "README.md"
+  ],
+  "contributors": [
+    {
+      "name": "venkateshs",
+      "email": "contactvenkateshsundaram@gmail.com"
+    },
+    {
+      "name": "vig_sub",
+      "email": "mailvignesh.sub@gmail.com"
+    }
+  ],
+  "keywords": [
+    "components",
+    "react",
+    "kit",
+    "ui-kit",
+    "react-component",
+    "ui",
+    "styled-ui",
+    "styled-kit",
+    "styled-ui-kit",
+    "styled-components",
+    "library-ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stack-is-empty/styled-ui-kit.git"
+  },
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "styled-components": "^3.2.6"
+  },
+  "scripts": {
+    "flow": "flow",
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start": "react-scripts start",
+    "build-scripts": "react-scripts build",
+    "build": "rm -rf core && NODE_ENV=production babel src --out-dir core --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "flow-bin": "^0.73.0",
+    "jest-enzyme": "^6.0.1",
+    "jest-styled-components": "^5.0.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.4.0",
+    "source-map-explorer": "^1.5.0",
+    "styled-components": "^3.2.6"
+  }
+}
